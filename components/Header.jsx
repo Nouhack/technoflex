@@ -17,7 +17,7 @@ export default function Nav() {
               title="Our product"
               class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
             >
-              Product
+              À propos de nous
             </a>
           </li>
           <li>
@@ -27,7 +27,7 @@ export default function Nav() {
               title="Our product"
               class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
             >
-              Features
+              Domaines
             </a>
           </li>
           <li>
@@ -37,7 +37,7 @@ export default function Nav() {
               title="Product pricing"
               class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
             >
-              Pricing
+              Méthodes
             </a>
           </li>
         </ul>
@@ -74,7 +74,7 @@ export default function Nav() {
               title="About us"
               class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
             >
-              About us
+              Pourquoi nous ?
             </a>
           </li>
           <li>
@@ -84,7 +84,7 @@ export default function Nav() {
               title="Sign in"
               class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
             >
-              Sign in
+              Solution
             </a>
           </li>
           <li>
@@ -94,7 +94,7 @@ export default function Nav() {
               title="Sign up"
               class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
             >
-              Sign up
+              Contactez nous
             </a>
           </li>
         </ul>

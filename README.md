@@ -1,3 +1,8 @@
+## TECHNOFLEX WEBSITE
+
+This is technoflex main website maded with nextJS with modern design with the help of tailwindcss utility library.
+
+## MORE ABOUT NEXT js
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started

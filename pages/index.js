@@ -1,6 +1,7 @@
 import Header_bottom from "../components/Header_bottom";
 import Features from '../components/Features.jsx';
 import Content from '../components/Content.jsx';
+import Testimonials from "../components/Testimonials";
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
       <Header_bottom />
       <Features />
       <Content />
+      <Testimonials />
     </div>
   )
 }
