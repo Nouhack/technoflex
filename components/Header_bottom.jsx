@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 
 export default function Header_bottom() {
   return (
@@ -27,12 +28,12 @@ export default function Header_bottom() {
             Technoflex est une societe de production et transformation des elastomeres et polymetres pour application industrielle et technique .
           </p>
           <div className="flex items-center">
-            <a
+            <Link
               href="/"
               className="inline-flex bg-red-500 items-center justify-center h-12 px-6 mr-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
             >
               Pourquoi nous ?
-            </a>
+            </Link>
           </div>
         </div>
       </div>
