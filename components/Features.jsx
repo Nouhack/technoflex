@@ -1,4 +1,4 @@
-
+import Link from 'next/link';
 export default function Feature() {
   return (
     <div className="px-4 py-16  mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
@@ -64,13 +64,13 @@ export default function Feature() {
               stopped old Big Bear. I didnt even know we were calling him Big
               Bear. We never had the chance to.
             </p>
-            <a
+            <Link
               href="/"
               aria-label=""
               className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
             >
               Learn more
-            </a>
+            </Link>
           </div>
         </div>
         <div className="flex flex-col max-w-md sm:mx-auto sm:flex-row">
@@ -101,13 +101,13 @@ export default function Feature() {
               triplefin gulper South American Lungfish mahi-mahi, butterflyfish
               glass catfish soapfish ling gray mullet!
             </p>
-            <a
+            <Link
               href="/"
               aria-label=""
               className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
             >
               Learn more
-            </a>
+            </Link>
           </div>
         </div>
         <div className="flex flex-col max-w-md sm:mx-auto sm:flex-row">
@@ -138,13 +138,13 @@ export default function Feature() {
               Hercules Morse, as big as a horse and Mrs Falani were up to no
               good with a bunch of crook pikelets.
             </p>
-            <a
+            <Link
               href="/"
               aria-label=""
               className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
             >
               Learn more
-            </a>
+            </Link>
           </div>
         </div>
         <div className="flex flex-col max-w-md sm:mx-auto sm:flex-row">
@@ -175,13 +175,13 @@ export default function Feature() {
               synergy capacity building, white paper; silo, unprecedented
               challenge B-corp problem-solvers.
             </p>
-            <a
+            <Link
               href="/"
               aria-label=""
               className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
             >
               Learn more
-            </a>
+            </Link>
           </div>
 
 
@@ -216,13 +216,13 @@ export default function Feature() {
               synergy capacity building, white paper; silo, unprecedented
               challenge B-corp problem-solvers.
             </p>
-            <a
+            <Link
               href="/"
               aria-label=""
               className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
             >
               Learn more
-            </a>
+            </Link>
           </div>
 
 
