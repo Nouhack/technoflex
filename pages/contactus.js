@@ -5,7 +5,7 @@ export default function Contactus() {
         <div class="lg:flex lg:items-center lg:-mx-6">
           <div class="lg:w-1/2 lg:mx-6">
             <h1 class="text-3xl font-semibold text-gray-800 capitalize dark:text-white lg:text-4xl">
-              Contactez-nous pour<br /> Plus d'informations
+              Contactez-nous pour<br /> Plus informations
             </h1>
 
             <div class="mt-6 space-y-8 md:mt-8">
