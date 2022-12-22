@@ -27,9 +27,9 @@ export default function Feature() {
                 height="24"
               />
             </svg>
-            <span className="relative">Les</span>
-          </span>{' '}
-          Domaines
+            <span className="relative">D</span>
+          </span>{''}
+          omaines
         </h2>
         <p className="text-base text-gray-700 md:text-lg">
           Sed ut perspiciatis unde omnis iste natus error sit voluptatem

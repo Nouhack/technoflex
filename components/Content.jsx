@@ -28,8 +28,9 @@ export default function Content() {
                 height="24"
               />
             </svg>
-          </span>{' '}
-          Les procédés pour application utilisés sont de divers types
+            <span className="relative">{'P'}</span>
+          </span>{''}
+          rocédés utilisés
         </h2>
       </div>
       <div className="relative px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
@@ -163,7 +164,7 @@ export default function Content() {
             <div>
               <img
                 className="object-cover w-full h-56 rounded shadow-lg sm:h-96"
-                src="https://images.pexels.com/photos/927022/pexels-photo-927022.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=3&amp;h=750&amp;w=1260"
+                src="https://images.unsplash.com/photo-1516937941344-00b4e0337589?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
                 alt=""
               />
             </div>

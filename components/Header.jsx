@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Link from 'next/link';
 
 
 export default function Nav() {
@@ -9,39 +10,40 @@ export default function Nav() {
       class="top-0 z-30 px-4 bg-white w-full py-6 mx-auto sticky lg:py-8 md:px-24 lg:px-8"
     >
       <div class="relative flex items-center justify-between lg:justify-center lg:space-x-16">
-        <ul class="flex items-center hidden space-x-8 lg:flex">
+        <ul class="items-center hidden space-x-8 lg:flex">
           <li>
-            <a
+            <Link
               href="/"
               aria-label="Our product"
               title="Our product"
               class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
             >
               À propos de nous
-            </a>
+            </Link>
+
           </li>
           <li>
-            <a
-              href="/"
+            <Link
+              href="/areas"
               aria-label="Our product"
               title="Our product"
               class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
             >
               Domaines
-            </a>
+            </Link>
           </li>
           <li>
-            <a
-              href="/"
+            <Link
+              href="/methodes"
               aria-label="Product pricing"
               title="Product pricing"
               class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
             >
               Méthodes
-            </a>
+            </Link>
           </li>
         </ul>
-        <a
+        <Link
           href="/"
           aria-label="Company"
           title="Company"
@@ -65,37 +67,37 @@ export default function Nav() {
           <span class="ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase">
             TECHNOFLEX
           </span>
-        </a>
-        <ul class="flex items-center hidden space-x-8 lg:flex">
+        </Link>
+        <ul class="items-center hidden space-x-8 lg:flex">
           <li>
-            <a
-              href="/"
+            <Link
+              href="/whyus"
               aria-label="About us"
               title="About us"
               class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
             >
               Pourquoi nous ?
-            </a>
+            </Link>
           </li>
           <li>
-            <a
+            <Link
               href="/"
               aria-label="Sign in"
               title="Sign in"
               class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
             >
               Solution
-            </a>
+            </Link>
           </li>
           <li>
-            <a
-              href="/"
+            <Link
+              href="/contactus"
               aria-label="Sign up"
               title="Sign up"
               class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
             >
               Contactez nous
-            </a>
+            </Link>
           </li>
         </ul>
         <div class="lg:hidden">
