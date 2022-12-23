@@ -1,6 +1,9 @@
 import Link from 'next/link'
+import { attributes, react as HomeContent } from '../content/contactus.md';
 
 export default function Footer() {
+
+  let { adress, phone, email } = attributes;
 
   return (
     <div className="px-4 pt-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
@@ -54,7 +57,7 @@ export default function Footer() {
               title="Our phone"
               className="transition-colors duration-300 text-deep-purple-accent-400 hover:text-deep-purple-800"
             >
-              850-123-5021
+              {phone}
             </Link>
           </div>
           <div className="flex">
@@ -65,7 +68,7 @@ export default function Footer() {
               title="Our email"
               className="transition-colors duration-300 text-deep-purple-accent-400 hover:text-deep-purple-800"
             >
-              info@lorem.mail
+              {email}
             </Link>
           </div>
           <div className="flex">
@@ -78,7 +81,7 @@ export default function Footer() {
               title="Our address"
               className="transition-colors duration-300 text-deep-purple-accent-400 hover:text-deep-purple-800"
             >
-              312 Lovely Street, NY
+              {adress}
             </Link>
           </div>
         </div>

@@ -81,7 +81,7 @@ export default function Nav() {
           </li>
           <li>
             <Link
-              href="/"
+              href="/solution"
               aria-label="Sign in"
               title="Sign in"
               class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"

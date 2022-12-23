@@ -1,24 +1,11 @@
-import { Component } from 'react'
-import { attributes, react as HomeContent } from '../content/home.md';
+import ReactMarkdown from "react-markdown";
+import { attributes, react as HomeContent } from '../content/methodes.md';
 
-export default class Home extends Component {
-  render() {
-    let { title, cats } = attributes;
-    return (
-      <>
-        <article>
-          <h1>{title}</h1>
-          <HomeContent />
-          <ul>
-            {cats.map((cat, k) => (
-              <li key={k}>
-                <h2>{cat.name}</h2>
-                <p>{cat.description}</p>
-              </li>
-            ))}
-          </ul>
-        </article>
-      </>
-    )
-  }
+export default function Areas() {
+
+  return (
+    <div className="prose mt-32">
+      <HomeContent />
+    </div>
+  )
 }
