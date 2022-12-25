@@ -1,8 +1,6 @@
 export default function Content() {
   return (
-
-    <div className=''>
-
+    <div className="">
       <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
         <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
           <span className="relative inline-block">
@@ -28,8 +26,9 @@ export default function Content() {
                 height="24"
               />
             </svg>
-            <span className="relative">{'P'}</span>
-          </span>{''}
+            <span className="relative">{"P"}</span>
+          </span>
+          {""}
           rocédés utilisés
         </h2>
       </div>
@@ -84,8 +83,13 @@ export default function Content() {
                     Exclusion , vulcanisation (LCM) bain de sel
                   </h6>
                   <p className="text-sm text-gray-900">
-                    Baseball ipsum dolor sit amet cellar rubber win hack tossed.
-                    Slugging catcher slide bench league.
+                    La vulcanisation par bain de sel est une méthode d'exclusion
+                    de l'air qui permet de produire des produits finis plus
+                    résistants et durables. Elle consiste à chauffer des
+                    matériaux (comme le caoutchouc) dans un bain de sel
+                    métallique, ce qui permet de créer des liens chimiques entre
+                    les molécules et d'améliorer leur résistance et leur
+                    durabilité.
                   </p>
                 </div>
               </div>
@@ -105,11 +109,16 @@ export default function Content() {
                     />
                   </svg>
                 </div>
-                <h6 className="mb-2 font-semibold leading-5">
-                  Compression
-                </h6>
+                <h6 className="mb-2 font-semibold leading-5">Compression</h6>
                 <p className="text-sm text-gray-900">
-                  They urge you to put down your sword and come join the winners.
+                  Est un processus qui consiste à appliquer une pression à un
+                  produit en caoutchouc afin de le comprimer et de le façonner
+                  dans une forme et une taille spécifiques. Ce processus est
+                  utile pour créer des produits à partir de matières premières
+                  telles que le caoutchouc, le silicone et les composites. Il
+                  est également utilisé pour modifier l'apparence et les
+                  propriétés des produits en caoutchouc, notamment leur
+                  résistance, leur durabilité et leur imperméabilité.
                 </p>
               </div>
               <div>
@@ -128,12 +137,14 @@ export default function Content() {
                     />
                   </svg>
                 </div>
-                <h6 className="mb-2 font-semibold leading-5">
-                  Injection
-                </h6>
+                <h6 className="mb-2 font-semibold leading-5">Injection</h6>
                 <p className="text-sm text-gray-900">
-                  If one examines precultural libertarianism, one is faced with a
-                  choice: either accept rationalism.
+                  Cette presse applique une pression intense sur un mélange de
+                  caoutchouc et de matières plastiques pour les mélanger et
+                  obtenir le mélange final. Le résultat est un matériau plus
+                  dense et plus durable qui est plus résistant à la compression
+                  et qui peut être utilisé pour fabriquer des produits plus
+                  robustes et plus durables.
                 </p>
               </div>
               <div>
@@ -152,12 +163,15 @@ export default function Content() {
                     />
                   </svg>
                 </div>
-                <h6 className="mb-2 font-semibold leading-5">
-                  Confection
-                </h6>
+                <h6 className="mb-2 font-semibold leading-5">Confection</h6>
                 <p className="text-sm text-gray-900">
-                  Those options are already baked in with this model shoot me an
-                  email clear blue water.
+                  Cela permet d'améliorer la résistance mécanique et la
+                  durabilité du matériau et de réduire sa taille. Cette méthode
+                  est largement utilisée dans le secteur de la confection, où
+                  elle est utilisée pour créer des produits de qualité
+                  supérieure. Elle est également utilisée pour réduire le coût
+                  des produits en réduisant leur taille et en réduisant la
+                  quantité de matière première nécessaire.
                 </p>
               </div>
             </div>
@@ -171,7 +185,6 @@ export default function Content() {
           </div>
         </div>
       </div>
-
     </div>
   );
-};
+}

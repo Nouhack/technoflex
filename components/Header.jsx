@@ -1,14 +1,11 @@
-import React, { useState } from 'react';
-import Link from 'next/link';
-
+import React, { useState } from "react";
+import Link from "next/link";
 
 export default function Nav() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <div
-      class="top-0 z-30 px-4 bg-white w-full py-6 mx-auto sticky lg:py-8 md:px-24 lg:px-8"
-    >
+    <div class="top-0 z-30 px-4 bg-white w-full py-6 mx-auto sticky lg:py-8 md:px-24 lg:px-8">
       <div class="relative flex items-center justify-between lg:justify-center lg:space-x-16">
         <ul class="items-center hidden space-x-8 lg:flex">
           <li>
@@ -20,7 +17,6 @@ export default function Nav() {
             >
               À propos de nous
             </Link>
-
           </li>
           <li>
             <Link
@@ -134,7 +130,7 @@ export default function Nav() {
                       class="inline-flex items-center"
                     >
                       <svg
-                        class="w-8 text-deep-purple-accent-400"
+                        class="w-8 text-red-500"
                         viewBox="0 0 24 24"
                         strokeLinejoin="round"
                         strokeWidth="2"
@@ -149,7 +145,7 @@ export default function Nav() {
                         <rect x="14" y="11" width="7" height="12" />
                       </svg>
                       <span class="ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase">
-                        Company
+                        Technoflex
                       </span>
                     </Link>
                   </div>
@@ -173,62 +169,62 @@ export default function Nav() {
                   <ul class="space-y-4">
                     <li>
                       <Link
-                        href="/"
+                        href="#aboutus"
                         aria-label="Our product"
                         title="Our product"
                         class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                       >
-                        Product
+                        À propos de nous
                       </Link>
                     </li>
                     <li>
                       <Link
-                        href="/"
+                        href="/areas"
                         aria-label="Our product"
                         title="Our product"
                         class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                       >
-                        Features
+                        Domaines
                       </Link>
                     </li>
                     <li>
                       <Link
-                        href="/"
+                        href="/methodes"
                         aria-label="Product pricing"
                         title="Product pricing"
                         class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                       >
-                        Pricing
+                        Méthodes
                       </Link>
                     </li>
                     <li>
                       <Link
-                        href="/"
+                        href="/whyus"
                         aria-label="About us"
                         title="About us"
                         class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                       >
-                        About us
+                        Pourquoi nous ?
                       </Link>
                     </li>
                     <li>
                       <Link
-                        href="/"
+                        href="/solution"
                         aria-label="Sign in"
                         title="Sign in"
                         class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                       >
-                        Sign in
+                        Solution
                       </Link>
                     </li>
                     <li>
                       <Link
-                        href="/"
+                        href="/contactus"
                         class="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
                         aria-label="Sign up"
                         title="Sign up"
                       >
-                        Sign up
+                        Contactez nous
                       </Link>
                     </li>
                   </ul>
@@ -240,4 +236,4 @@ export default function Nav() {
       </div>
     </div>
   );
-};
+}

@@ -1,4 +1,4 @@
-import Link from 'next/link';
+import Link from "next/link";
 export default function Feature() {
   return (
     <div className="px-4 py-16  mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
@@ -28,7 +28,8 @@ export default function Feature() {
               />
             </svg>
             <span className="relative">D</span>
-          </span>{''}
+          </span>
+          {""}
           omaines
         </h2>
         <p className="text-base text-gray-700 md:text-lg">
@@ -55,17 +56,22 @@ export default function Feature() {
               </svg>
             </div>
           </div>
-          <div >
+          <div>
             <h6 className="mb-3 text-xl font-bold leading-5">
               Travaux public et Bâtiment
             </h6>
             <p className="mb-3 text-sm text-gray-900">
-              A flower in my garden, a mystery in my panties. Heart attack never
-              stopped old Big Bear. I didnt even know we were calling him Big
-              Bear. We never had the chance to.
+              Nous proposons aux secteurs des travaux publics et du bâtiment des
+              solutions innovantes et de qualité. Notre expertise nous permet de
+              fournir des produits à haut rendement et des matériaux de
+              construction durables et robustes. Nous travaillons avec des
+              partenaires fiables pour assurer la qualité et la fiabilité de nos
+              produits. Notre équipe de professionnels qualifiés est à votre
+              disposition pour vous garantir un travail de qualité à chaque
+              étape du processus.
             </p>
             <Link
-              href="/"
+              href="/areas"
               aria-label=""
               className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
             >
@@ -92,17 +98,16 @@ export default function Feature() {
             </div>
           </div>
           <div>
-            <h6 className="mb-3 text-xl font-bold leading-5">
-              Hydraulique
-            </h6>
+            <h6 className="mb-3 text-xl font-bold leading-5">Hydraulique</h6>
             <p className="mb-3 text-sm text-gray-900">
-              Rough pomfret lemon shark plownose chimaera southern sandfish
-              kokanee northern sea robin Antarctic cod. Yellow-and-black
-              triplefin gulper South American Lungfish mahi-mahi, butterflyfish
-              glass catfish soapfish ling gray mullet!
+              Notre équipe spécialisée est en mesure de fournir des services de
+              qualité pour les applications les plus complexes. Nous disposons
+              d'une grande variété de composants hydrauliques, y compris des
+              pompes, des vérins, des raccords, des tuyaux et des valves, qui
+              sont conçus et fabriqués avec les plus hauts standards de qualité.
             </p>
             <Link
-              href="/"
+              href="/areas"
               aria-label=""
               className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
             >
@@ -129,17 +134,18 @@ export default function Feature() {
             </div>
           </div>
           <div>
-            <h6 className="mb-3 text-xl font-bold leading-5">
-              Naval
-            </h6>
+            <h6 className="mb-3 text-xl font-bold leading-5">Naval</h6>
             <p className="mb-3 text-sm text-gray-900">
-              A slice of heaven. O for awesome, this chocka full cuzzie is as
-              rip-off as a cracker. Meanwhile, in behind the bicycle shed,
-              Hercules Morse, as big as a horse and Mrs Falani were up to no
-              good with a bunch of crook pikelets.
+              Ces pieces sont conçues pour résister aux contraintes
+              environnementales et aux conditions météorologiques les plus
+              extrêmes. Grâce à leur flexibilité et à leur robustesse, elles
+              sont parfaitement adaptées aux conditions de navigation
+              difficiles. De plus, Technoflex offre une large gamme de produits
+              pour répondre aux besoins spécifiques de chaque application
+              maritime.
             </p>
             <Link
-              href="/"
+              href="/areas"
               aria-label=""
               className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
             >
@@ -170,23 +176,23 @@ export default function Feature() {
               Automobile et Cycles
             </h6>
             <p className="mb-3 text-sm text-gray-900">
-              Disrupt inspire and think tank, social entrepreneur but
-              preliminary thinking think tank compelling. Inspiring, invest
-              synergy capacity building, white paper; silo, unprecedented
-              challenge B-corp problem-solvers.
+              Notre gamme de produits innovants et robustes offre des solutions
+              de haute qualité aux secteurs de l'automobile et du cycle. Nous
+              sommes fiers de produire des matériaux durables et fiables qui
+              répondent aux normes les plus exigeantes de l'industrie. Notre
+              équipe d'experts met tout en œuvre pour offrir des produits qui
+              répondent aux exigences les plus strictes et offrent une
+              performance et une durabilité sans compromis.
             </p>
             <Link
-              href="/"
+              href="/areas"
               aria-label=""
               className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
             >
               Learn more
             </Link>
           </div>
-
-
         </div>
-
 
         <div className="flex flex-col max-w-md sm:mx-auto sm:flex-row">
           <div className="mr-4">
@@ -211,24 +217,22 @@ export default function Feature() {
               Pièce industrielles
             </h6>
             <p className="mb-3 text-sm text-gray-900">
-              Disrupt inspire and think tank, social entrepreneur but
-              preliminary thinking think tank compelling. Inspiring, invest
-              synergy capacity building, white paper; silo, unprecedented
-              challenge B-corp problem-solvers.
+              Toutes les pièces sont conçues pour offrir une résistance et une
+              durabilité optimales afin de garantir une performance optimale et
+              une longue durée de vie. Les matériaux sont choisis en fonction
+              des propriétés mécaniques et thermiques requises et des exigences
+              spéciales de l'application.
             </p>
             <Link
-              href="/"
+              href="/areas"
               aria-label=""
               className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
             >
               Learn more
             </Link>
           </div>
-
-
         </div>
-
       </div>
     </div>
   );
-};
+}

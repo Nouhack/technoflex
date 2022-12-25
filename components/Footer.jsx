@@ -1,8 +1,7 @@
-import Link from 'next/link'
-import { attributes, react as HomeContent } from '../content/contactus.md';
+import Link from "next/link";
+import { attributes, react as HomeContent } from "../content/contactus.md";
 
 export default function Footer() {
-
   let { adress, phone, email } = attributes;
 
   return (
@@ -36,12 +35,18 @@ export default function Footer() {
           </Link>
           <div className="mt-6 lg:max-w-sm">
             <p className="text-sm text-gray-800">
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium doloremque laudantium, totam rem aperiam.
-            </p>
-            <p className="mt-4 text-sm text-gray-800">
-              Eaque ipsa quae ab illo inventore veritatis et quasi architecto
-              beatae vitae dicta sunt explicabo.
+              Technoflex est une société leader dans la production et la
+              transformation des elastomères et des polymères pour des
+              applications industrielles et techniques. Nous sommes spécialisés
+              dans les domaines suivants : les travaux publics et le bâtiment,
+              l'hydraulique, le naval, l'automobile et les cycles, ainsi que les
+              pièces industrielles. Nous proposons également un service
+              personnalisé de fabrication de produits spécifiques, adaptés aux
+              besoins des clients. Notre entreprise a pour objectif de fournir
+              des produits et services de haute qualité à des prix compétitifs.
+              Nous mettons tout en œuvre pour améliorer sans cesse nos procédés
+              de fabrication en vue d'atteindre la satisfaction optimale de nos
+              clients.
             </p>
           </div>
         </div>
@@ -124,7 +129,8 @@ export default function Footer() {
       </div>
       <div className="flex flex-col-reverse justify-between pt-5 pb-10 border-t lg:flex-row">
         <p className="text-sm text-gray-600">
-          © Copyright {new Date().getFullYear()} TechnoFlex. All rights reserved.
+          © Copyright {new Date().getFullYear()} TechnoFlex. All rights
+          reserved.
         </p>
         <ul className="flex flex-col mb-3 space-y-2 lg:mb-0 sm:space-y-0 sm:space-x-5 sm:flex-row">
           <li>
@@ -155,4 +161,4 @@ export default function Footer() {
       </div>
     </div>
   );
-};
+}

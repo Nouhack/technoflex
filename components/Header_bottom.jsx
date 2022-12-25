@@ -1,9 +1,12 @@
-import React from 'react';
-import Link from 'next/link';
+import React from "react";
+import Link from "next/link";
 
 export default function Header_bottom() {
   return (
-    <div className="relative flex  flex-col-reverse bg-gray-100 py-16 lg:pt-0 lg:flex-col lg:pb-0">
+    <div
+      id="aboutus"
+      className="relative flex  flex-col-reverse bg-gray-100 py-16 lg:pt-0 lg:flex-col lg:pb-0"
+    >
       <div className="inset-y-0 top-0 right-0 z-0 w-full max-w-xl px-4 mx-auto md:px-0 lg:pr-0 lg:mb-0 lg:mx-0 lg:w-7/12 lg:max-w-full lg:absolute xl:px-0">
         <svg
           className="absolute left-0 hidden h-full text-white transform -translate-x-1/2 lg:block"
@@ -25,7 +28,9 @@ export default function Header_bottom() {
             Société de fabrication et de transformation du caoutchouc
           </h2>
           <p className="pr-5 mb-5 text-base text-gray-700 md:text-lg">
-            Technoflex est une societe de production et transformation des elastomeres et polymetres pour application industrielle et technique .
+            Technoflex est une societe de production et transformation des
+            elastomeres et polymetres pour application industrielle et technique
+            .
           </p>
           <div className="flex items-center">
             <Link
@@ -39,4 +44,4 @@ export default function Header_bottom() {
       </div>
     </div>
   );
-};
+}
