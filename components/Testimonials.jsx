@@ -5,7 +5,6 @@ import Marquee, { Motion, randomIntFromInterval } from "react-marquee-slider";
 import { withSize } from "react-sizeme";
 import { nanoid } from "nanoid";
 
-
 const FullWidth = styled.div`
   width: 99vw;
   position: relative;
@@ -40,7 +39,7 @@ const Circle = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  overflow:hidden;
+  overflow: hidden;
 `;
 
 const Logo = styled.img`
@@ -53,17 +52,16 @@ const Logo = styled.img`
 `;
 
 const icons = [
-  'https://upload.wikimedia.org/wikipedia/commons/6/6e/Snvi_logo.png',
-  'https://www.enmtp.com/wp-content/themes/Final2/images/object623621369.png',
-  'https://www.mdn.dz/site_principal/images/mdn.png',
-  'https://sonatrach.com/img/header/sonatrach.png',
-  'https://rhino-files.s3.amazonaws.com/uploads/cAw4edgPnRd7z5xTYTjbWDEkZ.png',
-  'https://farissiabtp.dz/img/partenaires/anbt.png',
-  'https://elmouchir.caci.dz/assets/images/entreprise/1666015450.jpg',
-  'https://gicep-dz.com/html/ext/assets/img/skikda.png',
-  'https://elmouchir.caci.dz/assets/images/entreprise/1666015450.jpg',
+  "https://upload.wikimedia.org/wikipedia/commons/6/6e/Snvi_logo.png",
+  "https://www.enmtp.com/wp-content/themes/Final2/images/object623621369.png",
+  "https://www.mdn.dz/site_principal/images/mdn.png",
+  "https://sonatrach.com/img/header/sonatrach.png",
+  "https://rhino-files.s3.amazonaws.com/uploads/cAw4edgPnRd7z5xTYTjbWDEkZ.png",
+  "https://farissiabtp.dz/img/partenaires/anbt.png",
+  "https://elmouchir.caci.dz/assets/images/entreprise/1666015450.jpg",
+  "https://gicep-dz.com/html/ext/assets/img/skikda.png",
+  "https://elmouchir.caci.dz/assets/images/entreprise/1666015450.jpg",
 ];
-
 
 const Companies = ({ size, onStartPerformance, onEndPerformance }) => {
   const [key, setKey] = useState(nanoid());
@@ -112,13 +110,17 @@ const Companies = ({ size, onStartPerformance, onEndPerformance }) => {
                 height="24"
               />
             </svg>
-            <span className="relative">{'P'}</span>
-          </span>{''}
+            <span className="relative">{"P"}</span>
+          </span>
+          {""}
           rincipaux partenaires
         </h2>
         <p className="text-base text-gray-700 md:text-lg">
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque rem aperiam, eaque ipsa quae.
+          Principaux partenaires sont des partenaires stratégiques qui
+          fournissent des produits, services et/ou conseils à une organisation
+          afin de l'aider à atteindre ses objectifs. Ils offrent habituellement
+          des avantages financiers, matériels et autres pour soutenir la mission
+          de l'organisation.
         </p>
       </div>
       <Height height={300}>
