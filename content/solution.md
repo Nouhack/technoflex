@@ -1,7 +1,7 @@
 ---
 title: Solution
 ---
-<h1 style="text-align:center; color: rgb(220 38 38)">Technoflex</h1>
+<h1 style="text-align:center;">Technoflex</h1>
  
 Technoflex est une société leader dans la production et la transformation des elastomères et des polymères pour des applications industrielles et techniques. Nous sommes spécialisés dans les domaines suivants : les travaux publics et le bâtiment, l'hydraulique, le naval, l'automobile et les cycles, ainsi que les pièces industrielles. Nous proposons également un service personnalisé de fabrication de produits spécifiques, adaptés aux besoins des clients. Notre entreprise a pour objectif de fournir des produits et services de haute qualité à des prix compétitifs. 
 
