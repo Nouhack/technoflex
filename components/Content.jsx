@@ -83,13 +83,13 @@ export default function Content() {
                     Exclusion , vulcanisation (LCM) bain de sel
                   </h6>
                   <p className="text-sm text-gray-900">
-                    La vulcanisation par bain de sel est une méthode d'exclusion
-                    de l'air qui permet de produire des produits finis plus
-                    résistants et durables. Elle consiste à chauffer des
-                    matériaux (comme le caoutchouc) dans un bain de sel
-                    métallique, ce qui permet de créer des liens chimiques entre
-                    les molécules et d'améliorer leur résistance et leur
-                    durabilité.
+                    La vulcanisation par bain de sel est une méthode
+                    d&#39;exclusion de l&#39;air qui permet de produire des
+                    produits finis plus résistants et durables. Elle consiste à
+                    chauffer des matériaux (comme le caoutchouc) dans un bain de
+                    sel métallique, ce qui permet de créer des liens chimiques
+                    entre les molécules et d&#39;améliorer leur résistance et
+                    leur durabilité.
                   </p>
                 </div>
               </div>
@@ -116,7 +116,7 @@ export default function Content() {
                   dans une forme et une taille spécifiques. Ce processus est
                   utile pour créer des produits à partir de matières premières
                   telles que le caoutchouc, le silicone et les composites. Il
-                  est également utilisé pour modifier l'apparence et les
+                  est également utilisé pour modifier l&#39;apparence et les
                   propriétés des produits en caoutchouc, notamment leur
                   résistance, leur durabilité et leur imperméabilité.
                 </p>
@@ -165,13 +165,14 @@ export default function Content() {
                 </div>
                 <h6 className="mb-2 font-semibold leading-5">Confection</h6>
                 <p className="text-sm text-gray-900">
-                  Cela permet d'améliorer la résistance mécanique et la
+                  Cela permet d&#39;améliorer la résistance mécanique et la
                   durabilité du matériau et de réduire sa taille. Cette méthode
                   est largement utilisée dans le secteur de la confection, où
                   elle est utilisée pour créer des produits de qualité
                   supérieure. Elle est également utilisée pour réduire le coût
-                  des produits en réduisant leur taille et en réduisant la
-                  quantité de matière première nécessaire.
+                  des produits en réduisant leur taille et en réduisant la Those
+                  options are already baked in with this model shoot me an email
+                  clear blue water. quantité de matière première nécessaire.
                 </p>
               </div>
             </div>

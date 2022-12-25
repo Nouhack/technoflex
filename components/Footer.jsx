@@ -39,14 +39,14 @@ export default function Footer() {
               transformation des elastomères et des polymères pour des
               applications industrielles et techniques. Nous sommes spécialisés
               dans les domaines suivants : les travaux publics et le bâtiment,
-              l'hydraulique, le naval, l'automobile et les cycles, ainsi que les
-              pièces industrielles. Nous proposons également un service
+              l&#39;hydraulique, le naval, l&#39;automobile et les cycles, ainsi
+              que les pièces industrielles. Nous proposons également un service
               personnalisé de fabrication de produits spécifiques, adaptés aux
               besoins des clients. Notre entreprise a pour objectif de fournir
               des produits et services de haute qualité à des prix compétitifs.
               Nous mettons tout en œuvre pour améliorer sans cesse nos procédés
-              de fabrication en vue d'atteindre la satisfaction optimale de nos
-              clients.
+              de fabrication en vue d&#39;atteindre la satisfaction optimale de
+              nos clients.
             </p>
           </div>
         </div>

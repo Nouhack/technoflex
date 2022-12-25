@@ -102,7 +102,7 @@ export default function Feature() {
             <p className="mb-3 text-sm text-gray-900">
               Notre équipe spécialisée est en mesure de fournir des services de
               qualité pour les applications les plus complexes. Nous disposons
-              d'une grande variété de composants hydrauliques, y compris des
+              d&#39;une grande variété de composants hydrauliques, y compris des
               pompes, des vérins, des raccords, des tuyaux et des valves, qui
               sont conçus et fabriqués avec les plus hauts standards de qualité.
             </p>
@@ -177,12 +177,12 @@ export default function Feature() {
             </h6>
             <p className="mb-3 text-sm text-gray-900">
               Notre gamme de produits innovants et robustes offre des solutions
-              de haute qualité aux secteurs de l'automobile et du cycle. Nous
-              sommes fiers de produire des matériaux durables et fiables qui
-              répondent aux normes les plus exigeantes de l'industrie. Notre
-              équipe d'experts met tout en œuvre pour offrir des produits qui
-              répondent aux exigences les plus strictes et offrent une
-              performance et une durabilité sans compromis.
+              de haute qualité aux secteurs de l&#39;automobile et du cycle.
+              Nous sommes fiers de produire des matériaux durables et fiables
+              qui répondent aux normes les plus exigeantes de l&#39;industrie.
+              Notre équipe d&#39;experts met tout en œuvre pour offrir des
+              produits qui répondent aux exigences les plus strictes et offrent
+              une performance et une durabilité sans compromis.
             </p>
             <Link
               href="/areas"
@@ -221,7 +221,7 @@ export default function Feature() {
               durabilité optimales afin de garantir une performance optimale et
               une longue durée de vie. Les matériaux sont choisis en fonction
               des propriétés mécaniques et thermiques requises et des exigences
-              spéciales de l'application.
+              spéciales de l&#39;application.
             </p>
             <Link
               href="/areas"
