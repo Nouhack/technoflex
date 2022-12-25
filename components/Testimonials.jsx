@@ -118,9 +118,9 @@ const Companies = ({ size, onStartPerformance, onEndPerformance }) => {
         <p className="text-base text-gray-700 md:text-lg">
           Principaux partenaires sont des partenaires stratégiques qui
           fournissent des produits, services et/ou conseils à une organisation
-          afin de l'aider à atteindre ses objectifs. Ils offrent habituellement
-          des avantages financiers, matériels et autres pour soutenir la mission
-          de l'organisation.
+          afin de l&#39;aider à atteindre ses objectifs. Ils offrent
+          habituellement des avantages financiers, matériels et autres pour
+          soutenir la mission de l&#39;organisation.
         </p>
       </div>
       <Height height={300}>
