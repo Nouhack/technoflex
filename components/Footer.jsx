@@ -15,7 +15,7 @@ export default function Footer() {
             className="inline-flex items-center"
           >
             <svg
-              className="w-8 text-deep-purple-accent-400"
+              className="w-8 text-red-500"
               viewBox="0 0 24 24"
               strokeLinejoin="round"
               strokeWidth="2"
