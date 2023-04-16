@@ -1,5 +1,5 @@
 ---
-adress: Cecilia Chapman 711-2880 Nulla St. Mankato Mississippi 96522
+adress: ZONE INDUSTRIELLE DE SALIBA, BARAKI
 phone: (257) 563-7401
-email: example@example.com
+email: contact@technoflex.dz
 ---

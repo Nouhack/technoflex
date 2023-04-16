@@ -33,8 +33,11 @@ export default function Feature() {
           omaines
         </h2>
         <p className="text-base text-gray-700 md:text-lg">
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque rem aperiam, eaque ipsa quae.
+          L’activité de transformation du caoutchouc nature et de synthèse en
+          produits finis est une activité assez complexe qui fait appel à
+          beaucoup de savoir-faire ; au même titre que beaucoup d’activités
+          industrielles, les caoutchoucs sont traités à travers des procédés
+          précis, spécifiques à chaque produit souhaité.
         </p>
       </div>
       <div className="grid  gap-8 row-gap-10  mx-auto lg:grid-cols-2">
@@ -61,14 +64,9 @@ export default function Feature() {
               Travaux public et Bâtiment
             </h6>
             <p className="mb-3 text-sm text-gray-900">
-              Nous proposons aux secteurs des travaux publics et du bâtiment des
-              solutions innovantes et de qualité. Notre expertise nous permet de
-              fournir des produits à haut rendement et des matériaux de
-              construction durables et robustes. Nous travaillons avec des
-              partenaires fiables pour assurer la qualité et la fiabilité de nos
-              produits. Notre équipe de professionnels qualifiés est à votre
-              disposition pour vous garantir un travail de qualité à chaque
-              étape du processus.
+              Augmenter ses capacités de production de façon à se positionner
+              sur le marché local en concurrent sérieux de l’importation, en
+              offrant de meilleurs rapports qualité/prix.
             </p>
             <Link
               href="/areas"

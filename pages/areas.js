@@ -36,60 +36,60 @@ export default function Areas() {
               </svg>
               <span className="relative">The</span>
             </span>{" "}
-            quick, brown fox jumps over a lazy dog
+            Domaine d’exécution et mission
           </h2>
           <p className="text-base text-gray-700 md:text-lg">
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-            accusantium doloremque rem aperiam, eaque ipsa quae.
+            L’activité de transformation du caoutchouc nature et de synthèse en
+            produits finis est une activité assez complexe qui fait appel à
+            beaucoup de savoir-faire ; au même titre que beaucoup d’activités
+            industrielles, les caoutchoucs sont traités à travers des procédés
+            précis, spécifiques à chaque produit souhaité.
           </p>
         </div>
         <div className="grid max-w-screen-lg gap-8 lg:grid-cols-2 sm:mx-auto">
           <div className="grid grid-cols-2 gap-5">
             <img
               className="object-cover w-full h-56 col-span-2 rounded shadow-lg"
-              src="https://images.pexels.com/photos/3182746/pexels-photo-3182746.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
+              src="img2.jpeg"
               alt=""
             />
             <img
               className="object-cover w-full h-48 rounded shadow-lg"
-              src="https://images.pexels.com/photos/3184296/pexels-photo-3184296.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
+              src="img1.jpeg"
               alt=""
             />
             <img
               className="object-cover w-full h-48 rounded shadow-lg"
-              src="https://images.pexels.com/photos/3184338/pexels-photo-3184338.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
+              //   src="https://images.pexels.com/photos/3184338/pexels-photo-3184338.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
               alt=""
+              src="img3.jpeg"
             />
           </div>
           <div className="flex flex-col justify-center">
             <div className="pb-4 mb-4 border-b">
               <h6 className="mb-2 font-semibold leading-5">
-                Sit error voluptatem accusantium
+                Augmenter ses capacités de production de façon à se positionner
+                sur le marché local en concurrent sérieux de l’importation, en
+                offrant de meilleurs rapports qualité/prix.
               </h6>
-              <p className="text-sm text-gray-900">
-                Sportacus andrew weatherall goose Refined gentlemen super mario
-                des lynam alpha trion zap rowsdower, omar sharif old.
-              </p>
             </div>
             <div className="pb-4 mb-4 border-b">
               <h6 className="mb-2 font-semibold leading-5">
-                Cheese on toast airedale the big cheese
+                Envisager l’exportation des produits à l’étranger selon l’agenda
+                national et les orientations du gouvernement.
               </h6>
-              <p className="text-sm text-gray-900">
-                Chase ball of string eat plants, meow, and throw up because I
-                ate plants going to catch the red dot today going to catch the
-                red dot today. I could pee on this if I had the energy.
-              </p>
             </div>
-            <div>
+            <div className="pb-4 mb-4 border-b">
               <h6 className="mb-2 font-semibold leading-5">
-                A flower in my garden, a mystery
+                Promouvoir le transfert de savoir-faire dans la filière de la
+                transformation du caoutchouc en Algérie.
               </h6>
-              <p className="text-sm text-gray-900">
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-                quae doloremque laudantium.
-              </p>
+            </div>
+            <div className="pb-4 mb-4 border-b">
+              <h6 className="mb-2 font-semibold leading-5">
+                Faire de la transformation du caoutchouc un terrain fertile pour
+                l’innovation.
+              </h6>
             </div>
           </div>
         </div>
