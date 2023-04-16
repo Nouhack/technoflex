@@ -186,7 +186,7 @@ export default function Contactus() {
                   </label>
                   <input
                     type="email"
-                    placeholder="johndoe@example.com"
+                    placeholder="email"
                     class="block w-full px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-md dark:placeholder-gray-600  dark:text-gray-300  focus:border-red-400 dark:focus:border-red-400 focus:ring-red-400 focus:outline-none focus:ring focus:ring-opacity-40"
                   />
                 </div>

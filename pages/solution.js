@@ -2,6 +2,26 @@ import ReactMarkdown from "react-markdown";
 import { attributes, react as HomeContent } from "../content/solution.md";
 
 export default function Areas() {
+  const ar = [
+    {
+      name: "Joint de porte, joint hublot",
+    },
+    {
+      name: "Joints et profilés pour menuiserie aluminium",
+    },
+    {
+      name: "Joint torique et joints de précision",
+    },
+    {
+      name: "Joints de dilatation et water stop",
+    },
+    {
+      name: "Joint pour carrosserie automobile et industrielle",
+    },
+    {
+      name: "Durite à eau ou à air avec ou sans renfort",
+    },
+  ];
   return (
     <div className="max-w-full px-10 p-2 prose  prose-img:mx-auto ">
       {
@@ -49,19 +69,13 @@ export default function Areas() {
                       lineHeight: "2rem",
                     }}
                   >
-                    Technoflex est une société leader dans la production et la
-                    transformation des elastomères et des polymères pour des
-                    applications industrielles et techniques. Nous sommes
-                    spécialisés dans les domaines suivants : les travaux publics
-                    et le bâtiment, l'hydraulique, le naval, l'automobile et les
-                    cycles, ainsi que les pièces industrielles. Nous proposons
-                    également un service personnalisé de fabrication de produits
-                    spécifiques, adaptés aux besoins des clients. Notre
-                    entreprise a pour objectif de fournir des produits et
-                    services de haute qualité à des prix compétitifs. Nous
-                    mettons tout en œuvre pour améliorer sans cesse nos procédés
-                    de fabrication en vue d'atteindre la satisfaction optimale
-                    de nos clients.
+                    La SARL Technoflex est spécialisée dans la fabrication et
+                    transformation des élastomères et polymères pour application
+                    industrielle et technique de ce fait les différents produits
+                    proposés sont hautement diversifiés et utilisables dans
+                    plusieurs domaines et notamment dans les secteurs : Maritime
+                    – Automobile – Hydraulique – Travaux publics et bâtiment.
+                    Parmi les multiples propositions se trouvent
                   </p>
                 </div>
               </div>
@@ -69,66 +83,30 @@ export default function Areas() {
             <div className="relative px-4 sm:px-0">
               <div className="absolute inset-0 bg-gray-100 h-1/2" />
               <div className="relative grid mx-auto overflow-hidden bg-white divide-y rounded shadow sm:divide-y-0 sm:divide-x sm:max-w-screen-sm sm:grid-cols-3 lg:max-w-screen-md">
-                <div className="inline-block p-8 text-center">
-                  <div className="flex items-center justify-center w-12 h-12 mx-auto mb-4 rounded-full bg-indigo-50">
-                    <svg
-                      className="w-10 h-10 text-deep-purple-accent-400"
-                      stroke="currentColor"
-                      viewBox="0 0 52 52"
-                    >
-                      <polygon
-                        strokeWidth="3"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        fill="none"
-                        points="29 13 14 29 25 29 23 39 38 23 27 23"
-                      />
-                    </svg>
-                  </div>
-                  <p className="font-bold tracking-wide text-gray-800">
-                    Make it better
-                  </p>
-                </div>
-                <div className="inline-block p-8 text-center">
-                  <div className="flex items-center justify-center w-12 h-12 mx-auto mb-4 rounded-full bg-indigo-50">
-                    <svg
-                      className="w-10 h-10 text-deep-purple-accent-400"
-                      stroke="currentColor"
-                      viewBox="0 0 52 52"
-                    >
-                      <polygon
-                        strokeWidth="3"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        fill="none"
-                        points="29 13 14 29 25 29 23 39 38 23 27 23"
-                      />
-                    </svg>
-                  </div>
-                  <p className="font-bold tracking-wide text-gray-800">
-                    Do it faster
-                  </p>
-                </div>
-                <div className="inline-block p-8 text-center">
-                  <div className="flex items-center justify-center w-12 h-12 mx-auto mb-4 rounded-full bg-indigo-50">
-                    <svg
-                      className="w-10 h-10 text-deep-purple-accent-400"
-                      stroke="currentColor"
-                      viewBox="0 0 52 52"
-                    >
-                      <polygon
-                        strokeWidth="3"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        fill="none"
-                        points="29 13 14 29 25 29 23 39 38 23 27 23"
-                      />
-                    </svg>
-                  </div>
-                  <p className="font-bold tracking-wide text-gray-800">
-                    Working harder
-                  </p>
-                </div>
+                {ar.map((item, index) => {
+                  return (
+                    <div className="inline-block p-8 text-center">
+                      <div className="flex items-center justify-center w-12 h-12 mx-auto mb-4 rounded-full bg-indigo-50">
+                        <svg
+                          className="w-10 h-10 text-deep-purple-accent-400"
+                          stroke="currentColor"
+                          viewBox="0 0 52 52"
+                        >
+                          <polygon
+                            strokeWidth="3"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            fill="none"
+                            points="29 13 14 29 25 29 23 39 38 23 27 23"
+                          />
+                        </svg>
+                      </div>
+                      <p className="font-bold tracking-wide text-gray-800">
+                        {item.name}
+                      </p>
+                    </div>
+                  );
+                })}
               </div>
             </div>
           </div>

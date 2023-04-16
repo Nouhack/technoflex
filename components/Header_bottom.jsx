@@ -17,8 +17,8 @@ export default function Header_bottom() {
           <path d="M50 0H100L50 100H0L50 0Z" />
         </svg>
         <img
-          className="object-cover w-full h-56 rounded shadow-lg lg:rounded-none lg:shadow-none md:h-96 lg:h-full"
-          src="https://acnews.blob.core.windows.net/imgnews/medium/NAZ_c3db44d493434dc48e7fb9ef520dc6fc.jpg"
+          className="object-contain w-full h-56 rounded shadow-lg lg:rounded-none lg:shadow-none md:h-96 lg:h-full"
+          src="font_bg.jpeg"
           alt=""
         />
       </div>
@@ -28,9 +28,9 @@ export default function Header_bottom() {
             Société de fabrication et de transformation du caoutchouc
           </h2>
           <p className="pr-5 mb-5 text-base text-gray-700 md:text-lg">
-            Technoflex est une societe de production et transformation des
-            elastomeres et polymetres pour application industrielle et technique
-            .
+            Spécialisée dans la transformation des élastomères, Technoflex
+            produit des éléments en caoutchouc de toutes tailles allant de
+            quelques grammes à plusieurs centaines de kilogrammes.
           </p>
           <div className="flex items-center">
             <Link

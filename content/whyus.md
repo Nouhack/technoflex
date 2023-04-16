@@ -1,12 +1,26 @@
 ---
 title: Pourquoi nous
 ---
+
 ## **<center>Pourquoi Technoflex?</center>**
 
-Technoflex est une société spécialisée dans la production et la transformation des élastomères et des polymères pour applications industrielles et techniques. Nous sommes fiers de fournir des produits de haute qualité et des services à nos clients. 
-
-Notre équipe expérimentée et hautement qualifiée peut fournir des solutions personnalisées pour répondre à vos besoins spécifiques. Nous sommes spécialisés dans la fabrication de produits spécialisés sur mesure, et nous fournissons à nos clients des produits hautement personnalisés qui répondent à leurs spécifications exactes.
-
-Nous offrons également un large éventail de produits et services qui couvrent une large gamme d'applications industrielles et techniques. Notre gamme de produits comprend des pièces moulées, des joints d'étanchéité, des matériaux de revêtement et des produits de haute qualité pour un large éventail d'industries.
-
-Nous sommes fiers de fournir des produits et des services de qualité à nos clients depuis plus de 25 ans. Notre équipe et notre expertise sont là pour vous fournir des produits de qualité, des services fiables et des solutions innovantes pour vos projets industriels et techniques.
+La SARL Technoflex fondée en 1974 par feu Mr ABBAS TERKI Djaffar est une
+entreprise spécialisée dans la fabrication de pièces techniques en élastomères,
+ainsi que différents éléments destinés à l’industrie de la chaussure.
+Situé à ses débuts à Saoula (1974-2005), le siège social et usine, de la Technoflex
+se trouve actuellement dans un local de 1600m2 pris en location dans la zone
+industrielle de Saliba à Baraki ; de par l’évolution et le développement de
+l’entreprise, le local actuel n’offre ni la surface ni les commodités nécessaires à la
+mise à niveau de la société.
+L’entreprise s’est vue affecter un terrain dans la zone industrielle de Ouled
+Moussa (Boumerdes) de 3000m2 comprenant cependant 700m2 de zone non
+aedificandi ainsi qu’une topographie rendant très difficile toute exploitation de
+par sa forme triangulaire et ses espaces exiguës et demandant un investissement
+trop élevé pour finalement n’avoir que 1000m2 de surface exploitable.
+Nous venons par la présente solliciter votre haute bienveillance pour l’octroi d’un
+terrain industriel, en vue d’une implantation d’une nouvelle unité de production
+accessible par route et connectable à tous les réseaux d’alimentation en énergie,
+eau, télécommunication et évacuation.
+Bien sûr, dans l’éventualité ou notre demande serait agréé, nous nous engageons
+à nous désister de la parcelle attribuée dans la commune de Ouled Moussa,
+auprès des administrations compétentes de la wilaya de Boumerdes.
